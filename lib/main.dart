@@ -67,7 +67,7 @@ class _LoginPageState extends State<LoginPage> {
                 // Perform login logic here
                 String username = _usernameController.text;
                 String password = _passwordController.text;
-                if (username == 'login' && password == '123') {
+                if (username == 'loginn' && password == '123') {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => HomePage()),
